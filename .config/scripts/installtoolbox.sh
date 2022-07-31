@@ -27,15 +27,23 @@ brew install --cask vlc
 brew install --cask powershell
 brew install --cask android-file-transfer
 brew install --cask krita
+brew install --cask the-unarchiver
 
 # Dev
+brew install git-lfs
+brew install pyenv
 brew install nvm
 mkdir ~/.config/nvm # required by nvm, also add some code to .zshrc
 
 # Android dev
+brew install pidcat
 brew install --cask android-studio
 brew install jadx
 brew install bundletool
+
+# Other
+brew install --cask messenger
+brew install --cask middleclick
 
 
 # TODO:
