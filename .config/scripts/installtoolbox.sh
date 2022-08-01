@@ -48,3 +48,8 @@ brew install --cask middleclick
 
 # TODO:
 #- add openUPM
+
+# TODO:
+# macOS Settings:
+#  - Open In new tab: always
+#  - Accesability > Pointer Control > Trackpad Options... > Enable dragging: without drag lock
