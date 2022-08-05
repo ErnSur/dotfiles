@@ -24,8 +24,11 @@ brew install --cask folx
 brew install --cask steam
 brew install --cask unity-hub
 brew install --cask vlc
+
+# PowerShell
 brew install --cask powershell
-brew install --cask android-file-transfer
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+# Other
 brew install --cask krita
 brew install --cask the-unarchiver
 
@@ -40,6 +43,8 @@ brew install pidcat
 brew install --cask android-studio
 brew install jadx
 brew install bundletool
+# Android user
+brew install --cask android-file-transfer
 
 # Other
 brew install --cask messenger
