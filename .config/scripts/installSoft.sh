@@ -1,8 +1,6 @@
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install oh-my-zsh
-
 # Utility
 brew install duti # https://github.com/moretension/duti
 	# stack post: https://apple.stackexchange.com/a/123954
@@ -25,9 +23,10 @@ brew install --cask steam
 brew install --cask unity-hub
 brew install --cask vlc
 
-# PowerShell
+# Shell
 brew install --cask powershell
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
+
 # Other
 brew install --cask krita
 brew install --cask the-unarchiver
