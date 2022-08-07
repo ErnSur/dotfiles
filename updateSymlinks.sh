@@ -74,14 +74,18 @@ scriptDir=${0:a:h}
 cd "${scriptDir}"
 
 # Prepare folder for symlink export
-rm -r ./export
+if [ -d "./export" ]; then
+    rm -r ./export
+fi
 mkdir "export"
 
 # Export zprofile
 symlink "./.zprofile" "./export/.zprofile"
 
-# Export unity shortcuts
+# Export unity
 symlink "./unity/ES Shortcuts.shortcut" "./export/Library/Preferences/Unity/Editor-5.x/shortcuts/default/ES Shortcuts.shortcut"
+# window layouts are not in sync, I could try symlinking parent directory instead. adding a gitignore inside so that default layouts are not in repo changes
+symlink "./unity/ES Tall.wlt" "./export/Library/Preferences/Unity/Editor-5.x/Layouts/default/ES Tall.wlt"
 
 # Export All files from .config
 symlink_allFilesUnderDir "./.config/" "./export/.config/"
