@@ -1,5 +1,5 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
 export NVM_DIR="$HOME/.config/nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -11,7 +11,6 @@ export PATH=$HOME/.config/scripts:$PATH
 export BUILDS=~/Builds
 export REPOS=~/Repos
 export TEMP=~/Temp
-
 
 loadPoshTheme() {
   theme=$(brew --prefix oh-my-posh)/themes/${1}.omp.json
@@ -66,3 +65,4 @@ gname() {
 getRepoName(){
   basename $(git config --get remote.origin.url) .git
 }
+#pwsh -nologo
