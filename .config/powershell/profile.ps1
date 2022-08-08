@@ -10,7 +10,7 @@
 Set-Alias clr Clear-Console
 $env:POSH_SESSION_DEFAULT_USER = "ES"
 
-#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\lambdageneration.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\lambdageneration.omp.json" | Invoke-Expression
 
 function Clear-GitCache {
     git rm -r --cached .
@@ -18,13 +18,12 @@ function Clear-GitCache {
 }
 
 function Get-GhRepos {
-    #gh search repos --owner=ErnSur --json url | ConvertFrom-Json | ForEach-Object -Process {$_.url+".git"}
     gh search repos --owner=ErnSur --json url | ConvertFrom-Json | ForEach-Object -Process {
-        return @{
-            Name = "Nam"
-            Url = $_.url
+        return [PSCustomObject]@{
+            Name = [System.IO.Path]::GetFileName($_.url)
+            Url = $_.url + ".git"
         }
-    }
+    } | Sort-Object -Property Name
 }
 
 function New-UPMPackage {

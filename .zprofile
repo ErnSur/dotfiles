@@ -65,4 +65,4 @@ gname() {
 getRepoName(){
   basename $(git config --get remote.origin.url) .git
 }
-#pwsh -nologo
+pwsh -nologo
