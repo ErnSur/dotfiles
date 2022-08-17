@@ -10,7 +10,7 @@
 Set-Alias clr Clear-Console
 $env:POSH_SESSION_DEFAULT_USER = "ES"
 
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\lambdageneration.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\avit.omp.json" | Invoke-Expression
 
 function Clear-GitCache {
     git rm -r --cached .

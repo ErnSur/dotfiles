@@ -16,7 +16,7 @@ loadPoshTheme() {
   theme=$(brew --prefix oh-my-posh)/themes/${1}.omp.json
   eval "$(oh-my-posh init zsh --config ${theme})"
 }
-loadPoshTheme lambdageneration
+loadPoshTheme avit
 
 symlink() {
   # 1 - from
@@ -65,4 +65,3 @@ gname() {
 getRepoName(){
   basename $(git config --get remote.origin.url) .git
 }
-pwsh -nologo
