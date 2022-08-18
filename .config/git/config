@@ -1,2 +1,6 @@
+[user]
+	name = Ernest Suryś
+	email = ernest.surys@gmail.com
+
 [core]
 	excludesFile = ~/.config/git/.gitignore

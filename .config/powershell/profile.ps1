@@ -9,6 +9,7 @@
 
 Set-Alias clr Clear-Console
 $env:POSH_SESSION_DEFAULT_USER = "ES"
+$dotfiles = "~/Repos/ErnSur/dotfiles/"
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\avit.omp.json" | Invoke-Expression
 
