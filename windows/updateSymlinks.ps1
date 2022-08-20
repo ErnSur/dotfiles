@@ -16,6 +16,6 @@ New-Link "./.config/git/.gitignore" "~/.config/git/.gitignore"
 New-Link "./windows/windows-terminal.settings.json" "~/AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 # unity shortcuts
-New-Link "./unity/ES Shortcuts.shortcut" "~/AppData/Roaming/Unity/Editor-5.x/Preferences/shortcuts/ES Shortcuts.shortcut"
+New-Link "./unity/ES Shortcuts.shortcut" "~/AppData/Roaming/Unity/Editor-5.x/Preferences/shortcuts/default/ES Shortcuts.shortcut"
 # window layouts are not in sync, I could try symlinking parent directory instead. adding a gitignore inside so that default layouts are not in repo changes
 New-Link "./unity/ES Tall.wlt" "~/AppData/Roaming/Unity/Editor-5.x/Preferences/Layouts/default/ES Tall.wlt"
