@@ -4,3 +4,4 @@
 
 [core]
 	excludesFile = ~/.config/git/.gitignore
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
