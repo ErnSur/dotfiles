@@ -16,6 +16,7 @@ brew install --cask visual-studio-code
 # colorSlurp is missing
 brew install --cask 1password
 brew install --cask licecap
+brew install --cask snipaste
 brew install gh
 brew install --cask folx
 
