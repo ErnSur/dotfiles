@@ -14,3 +14,4 @@ winget install --accept-source-agreements -e --id UnityTechnologies.UnityHub
 winget install --accept-source-agreements --id Microsoft.Powershell --source winget
 winget install --accept-source-agreements -e --id JanDeDobbeleer.OhMyPosh
 winget install --accept-source-agreements -e --id Microsoft.PowerToys
+winget install --accept-source-agreements -e --id Logitech.OptionsPlus

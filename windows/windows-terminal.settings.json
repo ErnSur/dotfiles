@@ -50,7 +50,7 @@
                 "name": "Command Prompt"
             },
             {
-                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -nologo",
+                "commandline": "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.3.1.0_x64__8wekyb3d8bbwe\\pwsh.exe -nologo",
                 "font": 
                 {
                     "face": "CaskaydiaCove NF"
