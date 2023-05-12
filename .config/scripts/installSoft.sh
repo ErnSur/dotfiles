@@ -53,6 +53,14 @@ brew install --cask middleclick
 
 # TODO:
 #- add openUPM
+#- install python with pyenv
+pyenv install 2.7.18
+
+# PIDCAT
+# to make it work you need to update the python reference
+# code "$(which pidcat)"
+# replace path in the first line to the new one from pyenv:
+# example: /Users/ernest.surys/.pyenv/versions/2.7.18/bin/python
 
 # TODO:
 # macOS Settings:

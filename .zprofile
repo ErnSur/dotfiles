@@ -6,6 +6,7 @@ export NVM_DIR="$HOME/.config/nvm"
 
 ## PATH
 export PATH=$HOME/.config/scripts:$PATH
+export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 
 # TODO: Autocreate folders if they dont exists
 export BUILDS=~/Builds
