@@ -253,6 +253,34 @@
         "path": "Main Menu/Window/Layouts/Delete Layout/UI Builder"
       },
       "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Edit/Select Prefab Root"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/External Dependency Manager/Android Resolver/Force Resolve"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 114,
+          "m_Modifiers": 6
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/External Dependency Manager/Android Resolver/Settings"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 287,
+          "m_Modifiers": 0
+        }
+      ]
     }
   ]
 }
