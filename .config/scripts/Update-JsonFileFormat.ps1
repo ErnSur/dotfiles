@@ -7,7 +7,7 @@ param (
     [string]$jsonFilePath
 )
 
-# Add custom file command
+# (Inside Fork) Add custom file command
 # run shell
 # pwsh -File ~/.config/scripts/Update-JsonFileFormat.ps1 "${file}"
 

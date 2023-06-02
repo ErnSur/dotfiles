@@ -13,6 +13,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ## PATH
 export PATH=$HOME/.config/scripts:$PATH
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
 # TODO: Autocreate folders if they dont exists
 export BUILDS=~/Builds

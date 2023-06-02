@@ -9,9 +9,9 @@ brew install --cask fork
 brew install --cask rider
 brew install --cask obsidian
 brew install --cask rectangle
-brew install --cask microsoft-edge
+brew install --cask microsoft-edge # replace with arc, or just delete, I will download the browser before running this
 brew install --cask icons8
-brew install --cask iterm2
+brew install --cask iterm2 # replace with warp
 brew install --cask visual-studio-code
 # colorSlurp is missing
 brew install --cask 1password

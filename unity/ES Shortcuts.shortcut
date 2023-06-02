@@ -281,6 +281,41 @@
           "m_Modifiers": 0
         }
       ]
+    },
+    {
+      "identifier": {
+        "path": "Search/Toggle Sync Search View"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Recompile Lightmapping Shaders"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/External Dependency Manager/Android Resolver/Display Libraries"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 108,
+          "m_Modifiers": 6
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Tools/MyBox/Bookmark Scene View/Bookmark Scene View 6"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Tools/ProBuilder/Materials/Apply Material Preset 6"
+      },
+      "combinations": []
     }
   ]
 }
