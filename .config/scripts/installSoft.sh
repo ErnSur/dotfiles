@@ -66,3 +66,4 @@ pyenv install 2.7.18
 # macOS Settings:
 #  - Open In new tab: always
 #  - Accesability > Pointer Control > Trackpad Options... > Enable dragging: without drag lock
+#  - Double-tap an item, then drag it without lifting your finger after the second tap
