@@ -37,7 +37,9 @@ pullApk() {
 }
 
 getRepos() {
-  gh search repos --owner=ErnSur --json url
+  #gh search repos --owner=ErnSur --json url
+  echo hmm
+  pwsh -Command "Get-GhRepos '${1}'"
 }
 
 # edit profile

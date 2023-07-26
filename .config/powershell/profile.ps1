@@ -19,12 +19,19 @@ function Clear-GitCache {
 }
 
 function Get-GhRepos {
+
+[CmdletBinding()]
+    param (
+        [Parameter()]
+        [string]$SearchFilter
+    )
+
     gh search repos --owner=ErnSur --json url | ConvertFrom-Json | ForEach-Object -Process {
         return [PSCustomObject]@{
             Name = [System.IO.Path]::GetFileName($_.url)
             Url = $_.url + ".git"
         }
-    } | Sort-Object -Property Name
+    } | Sort-Object -Property Name | Where-Object {$_.Name.Contains($SearchFilter)}
 }
 
 function New-UPMPackage {
