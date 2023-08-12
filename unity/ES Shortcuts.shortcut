@@ -316,6 +316,17 @@
         "path": "Main Menu/Tools/ProBuilder/Materials/Apply Material Preset 6"
       },
       "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/General/Test Runner"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 293,
+          "m_Modifiers": 0
+        }
+      ]
     }
   ]
 }
