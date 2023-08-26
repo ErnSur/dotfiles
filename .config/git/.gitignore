@@ -1,4 +1,9 @@
+# Special MacOS folder Icon file 
+# https://stackoverflow.com/questions/17556250/how-to-ignore-icon-in-git
+Icon
+Icon.meta
+
+# Other
 .DS_Store
 Sirenix
 Sirenix.meta
-Icon?
