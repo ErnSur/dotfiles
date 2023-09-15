@@ -82,9 +82,6 @@ mkdir "export"
 # Export zprofile
 symlink "./.zprofile" "./export/.zprofile"
 
-# Export rider computer layer settings
-symlink "./rider/GlobalSettingsStorage.DotSettings" "./export/Library/Application Support/JetBrains/Rider2023.2/resharper-host/GlobalSettingsStorage.DotSettings"
-
 # Export unity
 symlink "./unity/ES Shortcuts.shortcut" "./export/Library/Preferences/Unity/Editor-5.x/shortcuts/default/ES Shortcuts.shortcut"
 # window layouts are not in sync, I could try symlinking parent directory instead. adding a gitignore inside so that default layouts are not in repo changes
