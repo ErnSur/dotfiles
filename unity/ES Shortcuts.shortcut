@@ -327,6 +327,45 @@
           "m_Modifiers": 0
         }
       ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Export Package +"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/Homa Games/Homa Belly/Setup"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 292,
+          "m_Modifiers": 2
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Export SDK Installer"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 101,
+          "m_Modifiers": 6
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Reimport"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 105,
+          "m_Modifiers": 3
+        }
+      ]
     }
   ]
 }

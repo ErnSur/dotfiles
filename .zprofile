@@ -10,6 +10,13 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+## Ruby & Cocoapods
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 ## PATH
 export PATH=$HOME/.config/scripts:$PATH
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
@@ -19,6 +26,9 @@ export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 export BUILDS=~/Builds
 export REPOS=~/Repos
 export TEMP=~/Temp
+
+export NPM_REG_SDK="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk/"
+export NPM_REG_SDK_PRE="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk-pre-release/"
 
 loadPoshTheme() {
   theme=$(brew --prefix oh-my-posh)/themes/${1}.omp.json
@@ -38,8 +48,11 @@ pullApk() {
 
 getRepos() {
   #gh search repos --owner=ErnSur --json url
-  echo hmm
   pwsh -Command "Get-GhRepos '${1}'"
+}
+
+newGitIgnore() {
+  pwsh -Command "New-GitIgnore"
 }
 
 # edit profile
