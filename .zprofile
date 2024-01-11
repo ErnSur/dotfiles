@@ -11,8 +11,8 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 ## Ruby & Cocoapods
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -27,6 +27,7 @@ export BUILDS=~/Builds
 export REPOS=~/Repos
 export TEMP=~/Temp
 
+export NPM_REG_SDK_INTERNAL="https://homagames.jfrog.io/artifactory/api/npm/unity-public/"
 export NPM_REG_SDK="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk/"
 export NPM_REG_SDK_PRE="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk-pre-release/"
 
