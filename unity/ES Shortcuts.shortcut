@@ -366,6 +366,107 @@
           "m_Modifiers": 3
         }
       ]
+    },
+    {
+      "identifier": {
+        "path": "File/Lock Assembly Reload"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 108,
+          "m_Modifiers": 4
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/General/Project"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 49,
+          "m_Modifiers": 2
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/General/Scene"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/General/Game"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/General/Console"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 50,
+          "m_Modifiers": 2
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/GameObject/Replace GameObject"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 114,
+          "m_Modifiers": 3
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/RiderFlow/Search Everywhere"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Tools/Cycle Tool Modes"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 113,
+          "m_Modifiers": 1
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/GameObject/Align View to Selected"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 102,
+          "m_Modifiers": 1
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Google/Build and Run"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Create/Homa/Config"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 111,
+          "m_Modifiers": 3
+        }
+      ]
     }
   ]
 }

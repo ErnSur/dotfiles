@@ -34,6 +34,20 @@ function Get-GhRepos {
     } | Sort-Object -Property Name | Where-Object {$_.Name.Contains($SearchFilter)}
 }
 
+# doesn't work when results are paged
+function Find-InHomaRepos {
+
+    [CmdletBinding()]
+        param (
+            [Parameter()]
+            [string]$SearchFilter
+        )
+    
+        gh search code --owner=homagames "$SearchFilter" --json repository | ConvertFrom-Json | ForEach-Object -Process {
+            return $_.repository.nameWithOwner
+        } | Sort-Object | Select-Object -Unique
+    }
+
 function New-UPMPackage {
 
     [CmdletBinding()]
