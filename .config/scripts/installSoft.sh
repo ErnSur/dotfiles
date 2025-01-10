@@ -18,6 +18,7 @@ brew install --cask 1password
 brew install --cask licecap # screen recording
 brew install gh
 brew install --cask folx
+brew install --cask lookaway # break reminder
 
 brew install --cask steam
 brew install --cask unity-hub
