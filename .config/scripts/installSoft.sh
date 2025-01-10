@@ -9,14 +9,13 @@ brew install --cask fork
 brew install --cask rider
 brew install --cask obsidian
 brew install --cask rectangle
-brew install --cask microsoft-edge # replace with arc, or just delete, I will download the browser before running this
 brew install --cask icons8
-brew install --cask iterm2 # replace with warp
+brew install --cask warp # ghostty could also be nice
 brew install --cask visual-studio-code
 # colorSlurp is missing
+brew install --cask raycast # spotlight replacement
 brew install --cask 1password
-brew install --cask licecap
-brew install --cask snipaste
+brew install --cask licecap # screen recording
 brew install gh
 brew install --cask folx
 
@@ -29,7 +28,6 @@ brew install --cask powershell
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
 # Other
-brew install --cask krita
 brew install --cask the-unarchiver
 
 # Dev
@@ -39,16 +37,17 @@ brew install nvm
 mkdir ~/.config/nvm # required by nvm, also add some code to .zshrc
 
 # Android dev
-brew install pidcat
-brew install --cask android-studio
 brew install jadx
-brew install bundletool
+# These are turned off since it's been a while since I used it
+#  brew install pidcat
+#  brew install --cask android-studio
+#  brew install bundletool
+
 # Android user
-brew install --cask android-file-transfer
+brew install --cask macdroid # android file transfer
 
 # Other
-brew install --cask messenger
-brew install --cask middleclick
+brew install --cask multitouch # (middle click) I have a license for it, look for it in 1password
 
 
 # TODO:
