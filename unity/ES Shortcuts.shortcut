@@ -467,6 +467,34 @@
           "m_Modifiers": 3
         }
       ]
+    },
+    {
+      "identifier": {
+        "path": "Overlays/Show Tool Settings"
+      },
+      "combinations": []
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Window/Package Management/Package Manager"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 284,
+          "m_Modifiers": 0
+        }
+      ]
+    },
+    {
+      "identifier": {
+        "path": "Main Menu/Assets/Create/Scripting/Empty C# Script"
+      },
+      "combinations": [
+        {
+          "m_KeyCode": 109,
+          "m_Modifiers": 3
+        }
+      ]
     }
   ]
 }

@@ -22,6 +22,9 @@ export PATH=$HOME/.config/scripts:$PATH
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/ernest.surys/.dotnet/tools"
+
 # TODO: Autocreate folders if they dont exists
 export BUILDS=~/Builds
 export REPOS=~/Repos
@@ -95,4 +98,27 @@ gname() {
 
 getRepoName(){
   basename $(git config --get remote.origin.url) .git
+}
+
+git_lines_changed() {
+  if [ "$#" -ne 2 ]; then
+    echo "Usage: git_lines_changed <start-commit> <end-commit>"
+    return 1
+  fi
+
+  git log --pretty=format:"%H" "$1..$2" | \
+  while read -r commit; do
+    git show --numstat --oneline "$commit"
+  done | \
+  awk '
+    NF == 3 {
+      add += $1;
+      del += $2;
+    }
+    END {
+      print "Lines added:   " add;
+      print "Lines deleted: " del;
+      print "Total changed: " add + del;
+    }
+  '
 }
