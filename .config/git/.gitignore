@@ -4,6 +4,7 @@ Icon
 Icon.meta
 
 # Other
+/package-browser-info.json
 .DS_Store
 */Plugins/Sirenix/*
 */Plugins/Sirenix.meta
