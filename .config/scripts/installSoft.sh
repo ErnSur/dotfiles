@@ -12,6 +12,7 @@ brew install --cask rectangle
 brew install --cask icons8
 brew install --cask warp # ghostty could also be nice
 brew install --cask visual-studio-code
+brew install lihaoyun6/tap/airbattery # widget for batteries with support of iPhone and iPad
 # colorSlurp is missing
 brew install --cask raycast # spotlight replacement
 brew install --cask 1password
