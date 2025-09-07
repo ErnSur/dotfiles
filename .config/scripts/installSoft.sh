@@ -71,5 +71,4 @@ pyenv install 2.7.18
 # Accessibility > Display > Reduce motion. It makes transitioning between apps faster
 
 # commands to disable delay for doc autohide: (https://medium.com/geekculture/making-the-dock-snappier-6537a6214ad)
-# defaults write com.apple.dock autohide-delay -float 0
-# killall Dock
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
