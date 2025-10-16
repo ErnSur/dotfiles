@@ -10,7 +10,7 @@ brew install --cask rider
 brew install --cask obsidian
 brew install --cask rectangle
 brew install --cask icons8
-brew install --cask warp # ghostty could also be nice
+brew install --cask warp
 brew install --cask visual-studio-code
 brew install lihaoyun6/tap/airbattery # widget for batteries with support of iPhone and iPad
 # colorSlurp is missing
@@ -22,12 +22,10 @@ brew install --cask folx
 brew install --cask lookaway # break reminder
 
 brew install --cask steam
+brew install --cask whisky
 brew install --cask unity-hub
 brew install --cask vlc
-
-# Shell
-brew install --cask powershell
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install --cask chatgpt
 
 # Other
 brew install --cask the-unarchiver
@@ -51,9 +49,9 @@ brew install --cask macdroid # android file transfer
 # Other
 brew install --cask multitouch # (middle click) I have a license for it, look for it in 1password
 
-
+brew install node
+npm install -g openupm-cli
 # TODO:
-#- add openUPM
 #- install python with pyenv
 pyenv install 2.7.18
 

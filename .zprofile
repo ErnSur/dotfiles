@@ -30,23 +30,10 @@ export BUILDS=~/Builds
 export REPOS=~/Repos
 export TEMP=~/Temp
 
-export NPM_REG_MEGA_INTERNAL="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk-internal/"
-export NPM_REG_SDK_INTERNAL="https://homagames.jfrog.io/artifactory/api/npm/unity-public/"
-export NPM_REG_SDK="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk/"
-export NPM_REG_SDK_DEV="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk-dev/"
-export NPM_REG_SDK_PRE="https://homagames.jfrog.io/artifactory/api/npm/unity-public-sdk-pre-release/"
-
-export ORION_PROD_TOKEN="a#3!!x1dq##q$4@D44gsDF!aaBv3R4bGbv##!bGCqrQcDcbsr5"
 
 comfy() {
   python3.11 /Users/ernest.surys/Repos/Other/ComfyUI/main.py
 }
-
-loadPoshTheme() {
-  theme=$(brew --prefix oh-my-posh)/themes/${1}.omp.json
-  eval "$(oh-my-posh init zsh --config ${theme})"
-}
-loadPoshTheme avit
 
 symlink() {
   # 1 - from
